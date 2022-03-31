@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 
 /* cores */
-
+/*hsl(hue, saturation, lightness)*/
 :root {
   --prim-orange: hsl(31, 77%, 52%);
   --prim-cyan: hsl(184, 100%, 22%);
@@ -125,7 +125,7 @@ button:active {
 
 /* estilo footer */
 
-.attribution {
+.footer {
   width: 100%;
   margin: 0 auto;
   position: absolute;
@@ -136,12 +136,12 @@ button:active {
   text-align: center;
 }
 
-.attribution a {
+.footer a {
   text-decoration: none;
   color: var(--dark-gray);
 }
 
-.attribution a:hover {
+.footer a:hover {
   color: var(--black);
 }
 
