@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 
-/* colors */
+/* cores */
 
 :root {
   --prim-orange: hsl(31, 77%, 52%);
@@ -15,7 +15,7 @@
   --black: #000;
 }
 
-/* box sizing */
+/* tamanho da box */
 
 * {
   padding: 0;
@@ -34,7 +34,7 @@ body {
   color: var(--neu-white);
 }
 
-/* style cards */
+/* estilo cards */
 
 main {
   display: flex;
@@ -123,7 +123,7 @@ button:active {
   transform: scale(0.9);
 }
 
-/* style footer */
+/* estilo footer */
 
 .attribution {
   width: 100%;
@@ -147,34 +147,3 @@ button:active {
 
 /* style tablet and mobile */
 
-@media only screen and (max-width: 844px) {
-  body {
-    display: flex;
-    width: 100%;
-    overflow: scroll;
-    flex-wrap: wrap;
-  }
-
-  main {
-    padding: 50px 0;
-    flex-direction: column;
-  }
-
-  article.sedan {
-    border-radius: 7px 7px 0 0;
-  }
-
-  article.luxury {
-    border-radius: 0 0 7px 7px;
-  }
-
-  article p {
-    font-size: 0.77rem;
-  }
-
-  .attribution {
-    position: relative;
-    width: auto;
-    padding-bottom: 10px;
-  }
-}
