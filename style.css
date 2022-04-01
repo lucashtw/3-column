@@ -144,7 +144,7 @@ button:active {
 .footer a:hover {
   color: var(--black);
 }
-
+/*teste*/
 /* style tablet and mobile */
 
 @media only screen and (max-width: 844px) {
